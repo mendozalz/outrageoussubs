@@ -201,19 +201,18 @@ header .logoTipo {
 }
 
 @media only screen and (max-width: 768px) {
-
   .menuMovil {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
   }
-  .menuMovil img{
+  .menuMovil img {
     width: 50px;
     height: auto;
   }
   .slider::before {
-    width: 0%;
+    width: 100%;
   }
   .images .item img {
     height: 300px;
@@ -225,11 +224,11 @@ header .logoTipo {
     bottom: 16%;
   }
   .content h1 {
-    color: #ffffff;
+    color: #111;
     font-size: 34px;
   }
   .content {
-    color: #ffffff;
+    color: #111;
     position: absolute;
     top: 40%;
     left: 5%;
@@ -245,16 +244,19 @@ header .logoTipo {
   }
   .content button {
     margin-top: 10px;
+    background-color: #ff0000;
+    color: #fff;
   }
   #next {
     top: 25%;
     right: 1%;
     font-size: 75px;
+    color: #ff0000;
   }
   #prev {
     top: 25%;
     left: 1%;
-    color: #fff;
+    color: #ff0000;
     font-size: 75px;
   }
 }
